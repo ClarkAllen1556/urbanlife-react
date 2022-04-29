@@ -4,14 +4,15 @@ import './App.css';
 
 import Header from './components/Header';
 import Body from './components/Body';
+import Hero from './components/Hero';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="mx:container flex-col h-screen bg-sol-tan-1">
       <Header />
-      <Body />
+      <Body>
+        <Hero />
+      </Body>
     </div>
   );
 }

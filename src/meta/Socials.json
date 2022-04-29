@@ -1,0 +1,16 @@
+{
+  "socials": {
+    "linkedin": {
+      "name": "Linkedin",
+      "tag": "Follow me on Linkedin",
+      "icon": "AiFillLinkedin",
+      "link": "https://www.linkedin.com/in/allenclark1556/"
+    },
+    "github": {
+      "name": "Github",
+      "tag": "Fork me on Github",
+      "icon": "AiFillGithub",
+      "link": "https://github.com/ClarkAllen1556"
+    }
+  }
+}
