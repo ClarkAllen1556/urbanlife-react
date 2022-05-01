@@ -1,3 +1,5 @@
+import logUrl from '/assets/logo.png';
+
 export default function Header() {
   return (
     <div
@@ -6,7 +8,7 @@ export default function Header() {
        border-r-blue-600 bg-slate-400
       "
     >
-      <img className="scale-75" src={'/assets/logo.png'} />
+      <img className="scale-75" src={logUrl} />
       <h1 className=""> The Allen C. @ The Urbanlife </h1>
     </div>
   );

@@ -1,11 +1,10 @@
+import resumeUrl from '/assets/Allen_Clark_Resume_Rec.pdf';
+
 export default function Resume() {
   const Entry = ({ children }) => <div className="mb-5">{children}</div>;
   return (
     <div id="resume">
-      <a
-        href="../../assets/2022.04_Allen_Clark_Resume_Rec.pdf"
-        download="2022.04_Allen_Clark_Resume_Rec"
-      >
+      <a href={resumeUrl} download="Allen_Clark_Resume_Rec.pdf">
         Download
       </a>
       <Entry>
