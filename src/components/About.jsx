@@ -15,9 +15,9 @@ export default function About({ children }) {
         </Paragraph>
 
         <Paragraph>
-          I love playing around with new tech, exploring open-source projects,
-          and self-hosting. I’m also, avid coffee drinker, weekend cyclist, and
-          video game enthusiast.
+          I love playing around with new tools, exploring open-source projects,
+          and self-hosting. I’m also an avid coffee drinker, weekend cyclist,
+          and video game enthusiast.
         </Paragraph>
       </div>
 
