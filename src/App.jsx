@@ -11,7 +11,7 @@ import Education from './components/Education';
 
 function App() {
   return (
-    <div className="mx:container flex-col pb-10 min-h-full bg-sol-tan-1">
+    <div className="mx:container flex-col pb-10 min-h-full bg-sol-tan-2">
       <Header />
       <Body>
         <Hero />

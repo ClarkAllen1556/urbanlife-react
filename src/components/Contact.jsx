@@ -11,7 +11,10 @@ export default function Contact() {
           name="email"
           placeholder="Your email"
           required
-          className="border-2 rounded-md p-2 w-full"
+          className="
+            border-2 rounded-md p-2 w-full focus:outline-none
+            focus:border-sol-yellow-1 border-sol-grey-2
+          "
         />
       </div>
 
@@ -20,13 +23,19 @@ export default function Contact() {
           name="message"
           placeholder="Your message"
           required
-          className="border-2 rounded-md w-full p-2 h-48 resize-none"
+          className="
+            border-2 rounded-md w-full p-2 h-48 resize-none focus:outline-none
+            focus:border-sol-yellow-1 border-sol-grey-2
+          "
         />
       </div>
 
       <button
         type="submit"
-        className="p-2 mt-2 ml-auto w-20 border-2 rounded-md border-blue-400 bg-blue-300"
+        className="
+          p-2 mt-2 ml-auto w-20 rounded-md shadow-sm hover:shadow-none
+          text-white bg-sol-blue-1 focus:bg-sol-yellow-1 shadow-sol-black-2
+        "
       >
         Send
       </button>
