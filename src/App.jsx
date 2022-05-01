@@ -7,6 +7,7 @@ import About from './components/About';
 import Card from './components/Card';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Education from './components/Education';
 
 function App() {
   return (
@@ -16,20 +17,31 @@ function App() {
         <Hero />
 
         <div className="flex gap-10 ml-5 mr-5">
-          <div className="w-5/6">
-            <Card title="Experience!">
+          <div className="flex flex-col gap-5 w-2/3">
+            <Card title="Experience">
               <Resume />
             </Card>
           </div>
 
-          <div className="flex flex-col gap-5">
-            <Card title="Welcome to my page!">
-              <p>
-                {' '}
-                Hey there! My name is Allen Clark. I'm software engineer located
-                in Tokyo, Japan. I'm enthusiastic about all things tech and
-                open-source and currently, loving Elixir and Phoenix.{' '}
-              </p>
+          <div className="flex flex-col gap-5 w-1/3">
+            <Card title="Welcome!">
+              <div>
+                <p>
+                  {' '}
+                  Hey there! My name is Allen Clark. I'm software engineer
+                  located in Tokyo, Japan. I'm enthusiastic about all things
+                  tech and open-source and currently, loving Elixir and Phoenix.{' '}
+                </p>
+                <p>
+                  I love playing around with new tech, exploring open-source
+                  projects, and self-hosting. I’m also, avid coffee drinker,
+                  weekend cyclist, and video game enthusiast.
+                </p>
+              </div>
+            </Card>
+
+            <Card title="Education">
+              <Education />
             </Card>
 
             <Card title="More about me!">

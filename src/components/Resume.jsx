@@ -1,160 +1,117 @@
 export default function Resume() {
+  const Entry = ({ children }) => <div className="mb-5">{children}</div>;
   return (
     <div id="resume">
-      <h2 id="work-history">Work History</h2>
-      <div class="work-entry">
-        <h3 id="software-engineer---htm-kk">Software Engineer - HTM K.K.</h3>
-        <div class="col-group">
-          <div class="even-col">
-            <ul class="resume-list">
-              <li>Fall 2020 - Current</li>
-              <li>Tokyo, Japan</li>
-            </ul>
-          </div>
-          <div class="even-col">
-            <p>
-              Currently, I am a member of the software development at HTM K.K.
-              Here, alongside administration and processing teams, I use my
-              expertise in frontend development to improve our two hundred
-              client-facing processes.
-            </p>
-          </div>
-        </div>
-      </div>
+      <Entry>
+        <p>
+          <em>Lunaris</em> ~ Tokyo, Japan
+        </p>
+        <p>
+          <strong>Software Engineer</strong> (contract), January 2022 to Present
+        </p>
+        <ul>
+          <li className="list-disc ml-10 leading-tight">
+            Improving engineering throughput by applying work experience in
+            Agile environments
+          </li>
+          <li className="list-disc ml-10 leading-tight">
+            Utilizing my software development skills to create client accessible
+            APIs for a variety of applications such as a solution to synchronize
+            information between a popular POS service and Shopify stores
+          </li>
+          <li className="list-disc ml-10 leading-tight">
+            Refactoring Shopify integration code-bases to be compatible with new
+            Shopify features
+          </li>
+        </ul>
+        <p>
+          <em>
+            Tech exposed to: Elixir, Phoenix, Node.js, React, Shopify Liquid,
+            PostgreSQL, Git
+          </em>
+        </p>
+      </Entry>
 
-      <div class="work-entry">
-        <h3 id="software-engineer---human-resocia-co-ltd">
-          Software Engineer - Human Resocia Co., Ltd.
-        </h3>
-        <div class="col-group">
-          <div class="even-col">
-            <ul class="resume-list">
-              <li>Spring 2020 - Fall 2020</li>
-              <li>Tokyo, Japan</li>
-            </ul>
-          </div>
-          <div class="even-col">
-            <p>
-              At Human Resocia, I was dispatched to NTT Communications
-              Engineering where I worked in system design as a software
-              engineer. There, I was tasked with solving unique and challenging
-              system integration issues. I used a variety of tools to develop
-              new system architectures to achieve a flexible system that will
-              meet our specific development needs.
-            </p>
-          </div>
-        </div>
-      </div>
+      <Entry>
+        <p>
+          <em>HTM</em> ~ Tokyo, Japan
+        </p>
+        <p>
+          <strong>Software Engineer</strong>, October 2020 to December 2021
+        </p>
+        <ul>
+          <li className="list-disc ml-10 leading-tight">
+            Developed applications to improve internal and client facing
+            back-office processes
+          </li>
+          <li className="list-disc ml-10 leading-tight">
+            Utilized the Rapid Application Development model to quickly build
+            new solutions while adapting to dynamic requirements
+          </li>
+          <li className="list-disc ml-10 leading-tight">
+            Designed application architectures that better matched the team’s
+            development model to allow for faster application turnaround
+          </li>
+        </ul>
+        <p>
+          <em>
+            Tech exposed to: Node.js, Vue.js, VBA, C#, ASP.NET Core, Entity, MS
+            SQL Server, MS Access, SVN
+          </em>
+        </p>
+      </Entry>
 
-      <div class="work-entry">
-        <h3 id="software-engineering-intern---automationtest-sensus-boise">
-          Software Engineering Intern - Automation/Test, Sensus Boise
-        </h3>
-        <div class="col-group">
-          <div class="even-col">
-            <ul class="resume-list">
-              <li>Fall 2016 - Summer 2019</li>
-              <li>Boise, Idaho, United States of America</li>
-            </ul>
-          </div>
-          <div class="even-col">
-            <p>
-              While I was a student at Boise State University I had the
-              opportunity to participate in an ongoing software engineering
-              internship at Sensus Boise. At Sensus, I was a member of the
-              quality assurance team where I developed and maintained automated
-              testing suites for Sensus' distribution automation platform.
-            </p>
-          </div>
-        </div>
-      </div>
+      <Entry>
+        <p>
+          <em>NTT Communications Engineering</em> ~ Tokyo, Japan
+        </p>
+        <p>
+          <strong>Software Engineer</strong> (contract), February 2020 to
+          October 2020
+        </p>
+        <ul>
+          <li className="list-disc ml-10 leading-tight">
+            Worked in system design as a contract software engineer through
+            Human Resocia
+          </li>
+          <li className="list-disc ml-10 leading-tight">
+            Developed tools and scripts to improve software development workflow
+          </li>
+          <li className="list-disc ml-10 leading-tight">
+            Researched and documented methods on integrating multiple
+            applications of various sources
+          </li>
+        </ul>
+        <p>
+          <em>Tech exposed to: Node.js, Vue.js, Electron, BASH, Git</em>
+        </p>
+      </Entry>
 
-      <div class="work-entry">
-        <h3 id="it-assistant-boise-state-university">
-          IT Assistant, Boise State University
-        </h3>
-        <div class="col-group">
-          <div class="even-col">
-            <ul class="resume-list">
-              <li>Winter 2015 - Fall 2016</li>
-              <li>Boise, Idaho, United States of America</li>
-            </ul>
-          </div>
-          <div class="even-col">
-            <p>
-              During my first year at Boise State, I had the pleasure of working
-              with Boise State's Facilities Operations and Maintenance
-              department's small independent IT division. Due do Facilities
-              Operations' unique needs, we, FOMIT, were a separate division from
-              campus OIT. We were tasked with managing various forms of
-              equipment, IT hardware/software, task, and inventory databases.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <h2 id="education">Education</h2>
-      <div class="work-entry">
-        <h3 id="boise-state-university-bachelors-of-computer-science-minor-of-japanese-studies">
-          Boise State University, Bachelor's of Computer Science, Minor of
-          Japanese Studies
-        </h3>
-        <div class="col-group">
-          <div class="even-col">
-            <ul class="resume-list">
-              <li>Summer 2015 - Summer 2019</li>
-              <li>Boise, Idaho, United States of America</li>
-            </ul>
-          </div>
-          <div class="even-col">
-            <p>
-              Student IT Assistant at Boise State University Facilities
-              Operations and Maintenance, Member of the Keith Stein Blue Thunder
-              Marching Band, Member of Boise State Japan Club, Japanese Language
-              Assistant for intermediate Japanese
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="work-entry">
-        <h3 id="hosei-university-study-abroad">
-          Hosei University, Study Abroad
-        </h3>
-        <div class="col-group">
-          <div class="even-col">
-            <ul class="resume-list">
-              <li>Fall 2017 - Summer 2018</li>
-              <li>Ichigaya, Tokyo, Japan</li>
-            </ul>
-          </div>
-          <div class="even-col">
-            <p>Studied Japanese language and Cultural Studies.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="work-entry">
-        <h3 id="pasadena-city-college-computer-science-japanese-language-general-education">
-          Pasadena City College, Computer Science, Japanese Language, General
-          Education
-        </h3>
-        <div class="col-group">
-          <div class="even-col">
-            <ul class="resume-list">
-              <li>Fall 2012 - Spring 2015</li>
-              <li>Pasadena, California, United States of America</li>
-            </ul>
-          </div>
-          <div class="even-col">
-            <p>
-              Pasadena City College Computer Science Club Vice President,
-              Pasadena City College Engineering Club, Member of the Lancer
-              Marching Band.
-            </p>
-          </div>
-        </div>
-      </div>
+      <Entry>
+        <p>
+          <em>Sensus</em> ~ Boise, Idaho, USA
+        </p>
+        <p>
+          <strong>Software Engineering Intern</strong>, October 2016 to August
+          2017 &amp; August 2018 to August 2019
+        </p>
+        <ul>
+          <li className="list-disc ml-10 leading-tight">
+            Designed and developed automated testing systems for Node.js web
+            application
+          </li>
+          <li className="list-disc ml-10 leading-tight">
+            Participated in regression testing periods by executing manual
+            tests, documenting failures, and validating bug fixes
+          </li>
+        </ul>
+        <p>
+          <em>
+            Tech exposed to: Node.js, Mocha, TestCafe, BASH, Jenkins, Docker,
+            Vagrant, Git
+          </em>
+        </p>
+      </Entry>
     </div>
   );
 }
