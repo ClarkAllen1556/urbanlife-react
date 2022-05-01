@@ -1,0 +1,20 @@
+{
+  "facts": [
+    {
+      "title": "Age",
+      "fact": "27"
+    },
+    {
+      "title": "Language",
+      "fact": "English & Japanese"
+    },
+    {
+      "title": "Location",
+      "fact": "Tokyo, Japan"
+    },
+    {
+      "title": "Email",
+      "fact": "allen@urbanlife.me"
+    }
+  ]
+}
