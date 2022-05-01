@@ -15,14 +15,14 @@ function App() {
       <Body>
         <Hero />
 
-        <div className="flex ml-5 mr-5">
+        <div className="flex gap-10 ml-5 mr-5">
           <div className="w-5/6">
             <Card title="Experience!">
               <Resume />
             </Card>
           </div>
 
-          <div className="flex flex-col gap-2 ml-5 mr-5">
+          <div className="flex flex-col gap-5">
             <Card title="Welcome to my page!">
               <p>
                 {' '}

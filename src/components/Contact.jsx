@@ -20,7 +20,7 @@ export default function Contact() {
           name="message"
           placeholder="Your message"
           required
-          className="border-2 rounded-md w-full p-2"
+          className="border-2 rounded-md w-full p-2 h-48 resize-none"
         />
       </div>
 
