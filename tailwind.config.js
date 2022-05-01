@@ -7,6 +7,7 @@ module.exports = {
       },
       colors: {
         'sol-tan-1': '#fdf6e3',
+        'card-title-red': '#c9211e',
       },
     },
   },
