@@ -24,28 +24,12 @@ function App() {
           </div>
 
           <div className="flex flex-col gap-5 w-1/3">
-            <Card title="Welcome!">
-              <div>
-                <p>
-                  {' '}
-                  Hey there! My name is Allen Clark. I'm software engineer
-                  located in Tokyo, Japan. I'm enthusiastic about all things
-                  tech and open-source and currently, loving Elixir and Phoenix.{' '}
-                </p>
-                <p>
-                  I love playing around with new tech, exploring open-source
-                  projects, and self-hosting. I’m also, avid coffee drinker,
-                  weekend cyclist, and video game enthusiast.
-                </p>
-              </div>
+            <Card title="About">
+              <About />
             </Card>
 
             <Card title="Education">
               <Education />
-            </Card>
-
-            <Card title="More about me!">
-              <About />
             </Card>
 
             <Card title="Contact me!">
