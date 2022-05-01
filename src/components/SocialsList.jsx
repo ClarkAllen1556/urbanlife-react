@@ -1,15 +1,15 @@
 import { socials } from '../meta/Socials.json';
 import SocialLink from './SocialLink';
-import { FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 export default function SocialsList() {
   return (
     <div className="flex justify-center gap-2 mt-5">
       <SocialLink social={socials.linkedin}>
-        <FiLinkedin />
+        <FaLinkedinIn />
       </SocialLink>
       <SocialLink social={socials.github}>
-        <FiGithub />
+        <FaGithub />
       </SocialLink>
     </div>
   );
