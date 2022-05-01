@@ -4,7 +4,7 @@ import { FiGithub, FiLinkedin } from 'react-icons/fi';
 
 export default function SocialsList() {
   return (
-    <div className="flex">
+    <div className="flex justify-center gap-2 mt-5">
       <SocialLink social={socials.linkedin}>
         <FiLinkedin />
       </SocialLink>
