@@ -7,6 +7,7 @@ export default function SocialLink({ social, children }) {
       "
       href={social.link}
       title={social.tag}
+      target="_blank"
     >
       {children}
     </a>

@@ -14,7 +14,8 @@
     },
     {
       "title": "Email",
-      "fact": "allen@urbanlife.me"
+      "fact": "allen@urbanlife.me",
+      "link": "mailto:allen@urbanlife.me"
     }
   ]
 }
