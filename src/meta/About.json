@@ -16,6 +16,11 @@
       "title": "Email",
       "fact": "allen@urbanlife.me",
       "link": "mailto:allen@urbanlife.me"
+    },
+    {
+      "title": "Matrix",
+      "fact": "@ac1556:matrix.org",
+      "link": "https://matrix.to/#/@ac1556:matrix.org"
     }
   ]
 }
