@@ -103,7 +103,7 @@ export default function Resume() {
         <ul>
           <li className="list-disc ml-10 leading-tight">
             Designed and developed automated testing systems for Node.js web
-            application
+            applications
           </li>
           <li className="list-disc ml-10 leading-tight">
             Participated in regression testing periods by executing manual
