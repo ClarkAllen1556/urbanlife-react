@@ -1,10 +1,10 @@
-import resumeUrl from '/assets/Allen_Clark_Resume.pdf';
+import { resources } from '../meta/Resources.json';
 
 export default function Resume() {
   const Entry = ({ children }) => <div className="mb-5">{children}</div>;
   return (
     <div id="resume">
-      <a href={resumeUrl} download="Allen_Clark_Resume.pdf">
+      <a href={resources.resumeUrl} download="Allen_Clark_Resume.pdf">
         Download
       </a>
       <Entry>
