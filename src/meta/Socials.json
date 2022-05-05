@@ -11,6 +11,12 @@
       "tag": "Fork me on Github",
       "icon": "AiFillGithub",
       "link": "https://github.com/ClarkAllen1556"
+    },
+    "matrix": {
+      "name": "Matrix",
+      "tag": "Message me on [Matrix]",
+      "icon": "SiMatrix",
+      "link": "https://matrix.to/#/@asteroidrainfall:matrix.org"
     }
   }
 }
