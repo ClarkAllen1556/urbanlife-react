@@ -24,9 +24,13 @@ export default function About({ children }) {
       <ul className="text-right ml-4">
         {facts.map((fact, index) => (
           <li key={index}>
-            {fact.title}:{' '}
+            <span className="font-semibold">{fact.title}: </span>
             {fact.link ? (
-              <a href={fact.link} target="_blank">
+              <a
+                className="hover:text-sol-cyan-1"
+                href={fact.link}
+                target="_blank"
+              >
                 {fact.fact}
               </a>
             ) : (

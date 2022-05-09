@@ -4,7 +4,11 @@ export default function Resume() {
   const Entry = ({ children }) => <div className="mb-5">{children}</div>;
   return (
     <div id="resume">
-      <a href={resources.resumeUrl} download="Allen_Clark_Resume.pdf">
+      <a
+        className="hover:text-sol-cyan-1"
+        href={resources.resumeUrl}
+        download="Allen_Clark_Resume.pdf"
+      >
         Download
       </a>
       <Entry>
