@@ -16,6 +16,11 @@
       "title": "Email",
       "fact": "allen@urbanlife.me",
       "link": "mailto:allen@urbanlife.me"
+    },
+    {
+      "title": "Blog",
+      "fact": "My personal blog",
+      "link": "https://https://paper.wf/urbanlife"
     }
   ]
 }
