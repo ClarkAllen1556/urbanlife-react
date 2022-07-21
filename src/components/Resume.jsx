@@ -16,7 +16,7 @@ export default function Resume() {
           <em>Lunaris</em> ~ Tokyo, Japan
         </p>
         <p>
-          <strong>Software Engineer</strong> (contract), January 2022 to Present
+          <strong>Software Engineer</strong> (contract), January 2022 to June 2022
         </p>
         <ul>
           <li className="list-disc ml-10 leading-tight">
